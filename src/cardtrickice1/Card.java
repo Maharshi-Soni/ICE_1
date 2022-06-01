@@ -9,6 +9,7 @@ package cardtrickice1;
  * 
  *
  * @author sivagamasrinivasan
+ * @author Maharshi-Soni,June 1st
  */
 public class Card 
 {
