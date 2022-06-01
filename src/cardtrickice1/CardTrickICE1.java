@@ -1,7 +1,6 @@
 /*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
+Student ID : 991639914
+
  */
 package cardtrickice1;
 
@@ -9,7 +8,6 @@ package cardtrickice1;
  * step 2: take any card input from user suit,number
  * step 3: user card is in  the array 'card is found'
  *
- * @author sivagamasrinivasan,May 23rd
  * @author Maharshi-Soni,June 1st
  */
 import java.util.*;
@@ -22,6 +20,9 @@ public class CardTrickICE1 {
     {
         Scanner sc = new Scanner(System.in);
         Card[] magicHand = new Card[7]; //Array of object
+        Card luckyCard = new Card();
+        luckyCard.setValue(2);
+        luckyCard.setSuits("Hearts");
         boolean search = true;
         for( int i=0;i<magicHand.length;i++)
         {
