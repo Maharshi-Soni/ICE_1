@@ -2,13 +2,15 @@
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
+
+Student ID : 991639914
+
  */
 package cardtrickice1;
 
 /** define card value and suits
  * 
  *
- * @author sivagamasrinivasan
  * @author Maharshi-Soni,June 1st
  */
 public class Card 
@@ -16,7 +18,7 @@ public class Card
     private int value;
     private String suits; //encapsulation
     //constant
-    public static final String [] SUITS = { "diamonds","clubs","spades","hearts"};
+    public static final String [] SUITS = { "Diamonds","Clubs","Spades","Hearts"};
 
     /**
      * @return the value
